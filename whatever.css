@@ -1,0 +1,52 @@
+header, main, footer {
+  overflow: hidden; 
+}
+.header {
+  text-align:center;
+  background-color:#FFD700;
+  font-family:arial;
+}
+body {
+  margin:0;
+  min-height: 83vh;
+}
+
+main {
+  background-image:url("images/tile.png");
+  margin: 0;
+  height:100%;
+    min-height: 83vh;
+}
+div {
+  margin:0;
+}
+h3 {
+ text-align:center;
+ font-family:monospace;
+}
+ol {
+  list-style-type:upper-roman;
+  display:inline-block;
+}
+ul.a {
+  list-style-type:square;
+  display:inline-block;
+}
+ul.b {
+  list-style-image:url("Favicon.ico");
+  list-style-type:square;
+  display:inline-block
+}
+.center {
+  display:flex;
+  justify-content:center;
+  margin-top:2px;
+  margin-bottom:2px;
+  border-width:5px;
+  border-color:#FFFF00;
+  border-style:dotted;
+}
+footer {
+  position: sticky;
+
+}
